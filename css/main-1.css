@@ -4,7 +4,7 @@ body {
     color: darkgreen;
 }
 /* Main text flexbox and color bar for all pages */
-#flexMain {
+.flexMain {
     display: flex;
     /* Visual for debugging the flex boxes, lets you see where they are clearly */
     /* border: 2px solid red; */
