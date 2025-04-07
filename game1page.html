@@ -12,10 +12,20 @@
     <link rel="stylesheet" href="css/main-1.css">
     <style type="text/css">
         .textBar{
+            display: flex;
             background-color:#D6C1FF;
             height:620px;
             width:400px;
             margin: auto;
+            align-content: top;
+            align-content: center;
+            border-radius: 30px;
+            border-width: 3px;
+            border-color: black;
+            border-style: solid;
+        }
+        .flexSub {
+            margin 4px;
         }
         #header{
             font-size:36px;
@@ -24,7 +34,6 @@
             padding-left: 100px;
             padding-top:32px;
             border-bottom:#888 thin solid;
-            background-color: blue;
         }
         body {
             background-image: url(img/gear-tin.png), url(img/texture2.jpg);
@@ -47,14 +56,18 @@
         </ul>
     </nav>
     <div id="header">Golem Township</div>
-    <div class="textBarShared" id="textBar">
+    <div class="textBar">
         <div id="flexMain">
-            Golem Township is the first game released by Tin Gear Games, in which you manage a small but growing clade of golems as you seek to
-            build a township and establish yourself in a desolate fantasy medieval setting. In the game you will be able to:
-            <ul>
-                <li>Collect a variety of golems to assist you</li>
-                
-            </ul>
+            <div class="flexSub">
+                Golem Township is the first game released by Tin Gear Games, in which you manage a small but growing clade of golems as you seek to
+                build a township and establish yourself in a desolate fantasy medieval setting. In the game you will be able to:
+            </div>
+            <div class="flexSub">
+                <ul>
+                    <li>Collect a variety of golems to assist you</li>
+                    
+                </ul>
+            </div>
         </div>
     </div>  
 </body>
